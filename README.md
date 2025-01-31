@@ -9,19 +9,14 @@ The Weather API is a Flask application that provides access to weather data from
 ## Structure:
 The project is organized into the following directories and files:
 
-1. SurfsUp/
-* app.py: Main application file to run the Flask API.
-- climate_starter.ipynb: Jupyter Notebook for initial data exploration and analysis.
+1. SurfsUp has two files. app.py and climate_starter.ipynb
+* app.py is a Main application file to run the Flask API.
+   ![python_app_py](https://github.com/user-attachments/assets/c363fe5e-ce2e-4905-a6d9-3c576568c16e)
 
-2. Resources/
-* hawaii.sqlite: SQLite database containing weather data.
-- hawaii_measurements.csv: CSV file with measurement data.
-+ hawaii_stations.csv: CSV file with station information.
+- climate_starter.ipynb is a Jupyter Notebook for initial data exploration and analysis.
 
-### Technologies Used:
-* Flask: A web framework for building the API.
-- SQLAlchemy: An ORM for interacting with the SQLite database.
-+ SQLite: A lightweight database for storing weather data.
-* Jupyter Notebook: An interactive environment for data exploration and analysis.
-- Pandas: A data manipulation library for handling structured data.
-+ Matplotlib: A plotting library for visualizing data.
+2. Resources/ folder has three files, two of them are csv and one SQLite
+* hawaii.sqlite: SQLite database containing weather data. hawaii_measurements.csv: CSV file with measurement data. hawaii_stations.csv: CSV file with station information.
+
+### Technologies:
+Flask is using for a web framework for building the API. SQLAlchemy is for an ORM for interacting with the SQLite database. SQLite is for a lightweight database for storing weather data. Jupyter Notebook is for an interactive environment for data exploration and analysis. Pandas is for a data manipulation library for handling structured data. Matplotlib is for a plotting library for visualizing data.
